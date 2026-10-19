@@ -6,7 +6,7 @@ ELECTRON_VERSION="v22.3.27"
 ELECTRON_DIR="$HOME/.local/electron-$ELECTRON_VERSION"
 ELECTRON_BIN="$ELECTRON_DIR/electron"
 DOWNLOAD_URL="https://github.com/electron/electron/releases/download/$ELECTRON_VERSION/electron-$ELECTRON_VERSION-linux-x64.zip"
-VERSION_URL="https://raw.githubusercontent.com/Nhatgreen/zalo-linux-2026/latest/version.txt"
+VERSION_URL="https://raw.githubusercontent.com/Nhatgreen/Zalo-for-linux/latest/version.txt"
 INSTALL_DIR="$(dirname "$0")"
 
 # Use bundled electron if available (AppImage), otherwise use/download from ~/.local
@@ -78,7 +78,7 @@ if [ -n "$APPIMAGE" ]; then
                 --ok-label="Download" \
                 --cancel-label="Skip" \
                 --width=320 2>/dev/null \
-            && xdg-open "https://github.com/Nhatgreen/zalo-linux-2026/releases/tag/$REMOTE_VERSION" || true
+            && xdg-open "https://github.com/Nhatgreen/Zalo-for-linux/releases/tag/$REMOTE_VERSION" || true
         fi
     fi
 else
