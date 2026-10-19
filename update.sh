@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # --- CONFIG ---
-REPO_URL="https://github.com/realdtn2/zalo-linux-2026"
+REPO_URL="https://github.com/Nhatgreen/zalo-linux-2026"
 INSTALL_DIR="$HOME/.local/share/zalo"
 TMP_DIR="/tmp/zalo-update-$$"
 FIFO="/tmp/zalo-update-$$.fifo"
-VERSION_URL="https://raw.githubusercontent.com/realdtn2/zalo-linux-2026/latest/version.txt"
+VERSION_URL="https://raw.githubusercontent.com/Nhatgreen/zalo-linux-2026/latest/version.txt"
 
 # --- CLEANUP TRAP ---
 cleanup() {

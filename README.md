@@ -21,7 +21,7 @@ The port was created by:
 ### Option 1: Install script
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/realdtn2/zalo-linux-2026.git
+   git clone https://github.com/Nhatgreen/zalo-linux-2026.git
    cd zalo-linux-2026
    ```
 2. **Run the install script**:
@@ -30,7 +30,7 @@ The port was created by:
    ```
 
 ### Option 2: AppImage
-Download the latest AppImage from the [Releases](https://github.com/realdtn2/zalo-linux-2026/releases/latest) page, then:
+Download the latest AppImage from the [Releases](https://github.com/Nhatgreen/zalo-linux-2026/releases/latest) page, then:
 ```bash
 chmod +x Zalo-*.AppImage
 ./Zalo-*.AppImage
@@ -39,7 +39,7 @@ No installation needed — fully self-contained, just run it.
 
 ### Building the AppImage yourself
 ```bash
-git clone https://github.com/realdtn2/zalo-linux-2026.git
+git clone https://github.com/Nhatgreen/zalo-linux-2026.git
 cd zalo-linux-2026
 ./build-appimage.sh
 # output: dist/Zalo-<version>-x86_64.AppImage
@@ -194,4 +194,4 @@ This is an active work-in-progress project. Contributions are welcome! Please:
 
 ## Support
 
-For issues, questions, or suggestions, please open an issue on the [GitHub Issues](https://github.com/realdtn2/zalo-linux-2026/issues) page.
+For issues, questions, or suggestions, please open an issue on the [GitHub Issues](https://github.com/Nhatgreen/zalo-linux-2026/issues) page.
