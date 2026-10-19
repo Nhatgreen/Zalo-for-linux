@@ -76,6 +76,7 @@ echo "  Installed : $LOCAL_VERSION"
 echo "  Latest    : $REMOTE_VERSION"
 
 if [ "$REMOTE_VERSION" = "unknown" ]; then
+    [ "$STARTUP_CHECK" = "1" ] && exit 0
     zenity --warning --title="Zalo Update" \
         --text="Could not reach GitHub.\nCheck your internet connection." 2>/dev/null
     exit 1

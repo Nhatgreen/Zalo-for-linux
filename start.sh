@@ -82,7 +82,7 @@ if [ -n "$APPIMAGE" ]; then
         fi
     fi
 else
-    STARTUP_CHECK=1 bash "$INSTALL_DIR/update.sh"
+    STARTUP_CHECK=1 bash "$INSTALL_DIR/update.sh" || true
 fi
 
 # --- RUN APP ---
