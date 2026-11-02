@@ -51505,7 +51505,7 @@ __ZaBUNDLENAME__ = "compact-app", __SCRIPT_TYPE__ = "utility-process",
             var u = n("ZQzv");
             const d = e => ({
                 title: "Zalo Photo",
-                frame: Object(u.getClientType)() !== u.WIN_CLIENT_TYPE,
+                frame: true,
                 x: e.x,
                 y: e.y,
                 width: e.w,

@@ -48374,7 +48374,7 @@ __ZaBUNDLENAME__ = "main", __SCRIPT_TYPE__ = "main",
             var l = n("ZQzv");
             const u = e => ({
                 title: "Zalo Photo",
-                frame: Object(l.getClientType)() !== l.WIN_CLIENT_TYPE,
+                frame: true,
                 x: e.x,
                 y: e.y,
                 width: e.w,
