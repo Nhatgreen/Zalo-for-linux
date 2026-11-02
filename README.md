@@ -2,7 +2,9 @@
 ⚠️ **Work in Progress** - This project is under active development.
 A Linux port of Zalo, bringing the popular Vietnamese messaging application to the Linux platform.
 
-<img width="1280" height="799" alt="image" src="https://github.com/user-attachments/assets/7f3000e2-6d5d-4bc1-a4c1-d334f4d7a3e9" />
+<p align="center">
+  <img src="assets/banner.jpg" alt="Zalo for Linux" width="100%" />
+</p>
 
 ## How It Works
 
